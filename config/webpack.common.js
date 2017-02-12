@@ -11,7 +11,12 @@ module.exports = {
   },
 
   resolve: {
-    extensions: ['.ts', '.js']
+    extensions: ['.ts', '.js'],
+
+    alias: {
+        net: 'net-browserify-alt/browser',
+        tls: 'net-browserify-alt/browser'
+    }
   },
 
   module: {
