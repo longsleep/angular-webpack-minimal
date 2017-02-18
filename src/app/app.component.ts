@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 import * as Quassel from 'libquassel';
 
@@ -9,10 +9,10 @@ import '../../public/css/styles.css';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-    ngOnInit(): void {
-        console.log("AppComponent init");
+export class AppComponent implements OnInit {
+  ngOnInit(): void {
+    console.log('AppComponent init');
 
-        console.log("xxx1", Quassel);
-    }
+    console.log('xxx1', Quassel);
+  }
 }
