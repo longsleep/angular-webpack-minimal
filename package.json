@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@types/jasmine": "2.5.41",
-    "@types/node": "^6.0.45",
+    "@types/node": "^6.0.63",
     "angular2-template-loader": "^0.6.2",
     "awesome-typescript-loader": "^3.0.4-rc.2",
     "css-loader": "^0.26.1",
